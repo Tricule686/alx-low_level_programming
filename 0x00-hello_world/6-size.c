@@ -2,11 +2,11 @@
 
 /**
  *
- * * main - Prints the sizeof many var types
+ * main - Prints the sizeof many var types
  *
- * *
  *
- * * Return: Always 0 (Success)
+ *
+ * Return: Always 0 (Success)
  *
  * */
 
@@ -32,8 +32,8 @@ int main(void)
 
 	printf("Size of a long long int: %d byte(s)\n", sizeof(d));
 
-	printf("Size of a float: %d byte(s)\n", sizeof(e));
+       printf("Size of a float: %d byte(s)\n", sizeof(e));
 
-	return (0);
+       return (0);
 
-}
+

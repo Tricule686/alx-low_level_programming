@@ -1,14 +1,14 @@
 #include <unistd.h>
 
 /**
- *
- * * main - Prints a text
- *
- * *
- *
- * * Return: Always 1 (Success)
- *
- * */
+
+  * main - Prints a text
+
+  *
+
+  * Return: Always 1 (Success)
+
+  */
 
 int main(void)
 
@@ -20,4 +20,4 @@ int main(void)
 
 	return (1);
 
-}
+

@@ -1,43 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - sums 3-5_cous - Entry point
+ * main - fibonacci 50
  *
- * Return:  (0)
+ *
+ * Return:  (Success)
  */
 
 int main(void)
 {
-  int i = 0;
-  int m3 = 3;
-  int m5 = 5;
-  int sum = 0;
-  int lim = 1024;
+  unsigned long int i;
+  unsigned long int bef = 1;
+  unsigned long int aft = 2;
 
-  while (i == 0)
+  printf("%lu", bef);
+
+  for (i = 1; i < 50; i++)
   {
-
-    if (m3 < lim)
-    {
-      sum += m3;
-      m3 += 3;
-    }
-
-    if (m5 < lim && (m5 % 3) != 0)
-    {
-      sum += m5;
-      m5 += 5;
-    }
-    else if (m5 % 3 == 0)
-    {
-      m5 += 5;
-    }
-
-    if (m3 >= lim && m5 >= lim)
-    {
-      i = 1;
-    }
+    printf(", %lu", aft);
+    aft += bef;
+    bef = aft - bef;
   }
-  printf("%d\n", sum);
+  printf("\n");
   return (0);
 }
